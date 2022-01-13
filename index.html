@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Miz failures Patcher</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Miz failures patcher</h1>
+      <p>
+        Drag your .miz file below to check / replace ["enable"] = true by false
+      </p>
+      <p>
+        there's a bug in DCS, that adds ghost failures and prevents some
+        aircraft to start
+      </p>
+      <p>
+        see
+        <a
+          target="_blank"
+          href="https://forums.eagle.ru/topic/290929-ka50-engine-start-failure-after-mission-edition/?_fromLogin=1"
+          >This post on the DCS forum</a
+        >
+      </p>
+
+      <div id="dropzone"></div>
+      <div id="statuspatch"></div>
+      <div class="footer">
+        <img class="logo" src="./Logo_MOUSTIKS_6TH_MHR.png" />
+        <p>
+          by 06MRH - french helicopter squadron -
+          <a
+            target="_blank"
+            href="https://www.facebook.com/groups/930736214533111"
+            >Facebook</a
+          >
+        </p>
+      </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+#dropzone {
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 70vw;
+  height: 30vh;
+  border: 5px dotted grey;
+}
+
+#dropzone .patched {
+  border: 3px dotted green;
+}
+
+.content {
+  text-align: center;
+}
+
+.logo {
+  width: 10vw;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
