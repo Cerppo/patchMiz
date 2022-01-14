@@ -20,6 +20,8 @@ dropzone.addEventListener("drop", async (e) => {
       if (patched) {
         statuspatch.textContent = file.path + " PATCHED";
         dropzone.style.borderColor = "green";
+      } else {
+        statuspatch.textContent = "No problem found";
       }
     }
   }

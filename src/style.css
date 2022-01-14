@@ -1,15 +1,20 @@
 #dropzone {
   border-radius: 10px;
   margin: 10px auto;
-  width: 70vw;
+  width: 90vw;
   height: 30vh;
   border: 5px dotted grey;
+  font-size: x-large;
+  vertical-align: middle;
 }
 
 #dropzone .patched {
   border: 3px dotted green;
 }
 
+#statuspatched { 
+  color: blue;
+}
 .content {
   text-align: center;
 }
