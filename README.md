@@ -8,10 +8,15 @@ I quickly created a tool, both as an exercice for myself and to help my friends 
 
 ## Installation
 
+### Environment
+
+it requires node.js and uses electron and electron-packager to build.
+
 ### Option 1 - Down download the project and build the app
 
 run
 
+    cd src
     npm install
 
 to install npm packages , then
@@ -19,6 +24,8 @@ to install npm packages , then
     npm run build
 
 to build the app with electron-packager
+
+on windows it creates a folder named patchmiz-win32-x64
 
 ### Option 2 - use the pre-built .zip
 
