@@ -2,7 +2,7 @@
 
 PatchMiz is a tool to patch DCS .miz files when they are "corrupted" with ghost failures.
 
-in 2022, jan, there's a know bug ( read here https://forums.eagle.ru/topic/290929-ka50-engine-start-failure-after-mission-edition/?_fromLogin=1 ) that sometimes add "ghost" failures to into the .miz file.
+in 2022, jan, there's a known bug ( read here https://forums.eagle.ru/topic/290929-ka50-engine-start-failure-after-mission-edition/?_fromLogin=1 ) that sometimes add "ghost" failures to into the .miz file.
 
 I quickly created a tool, both as an exercice for myself and to help my friends to quickly check their .miz after edition (and automatically patch them if an issue is detected)
 
