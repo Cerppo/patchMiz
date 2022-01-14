@@ -30,6 +30,7 @@ on windows it creates a folder named patchmiz-win32-x64
 ### Option 2 - use the pre-built .zip
 
 Download the built and unzip it.
+https://github.com/Cerppo/patchMiz/releases/latest
 
 ## Usage
 
